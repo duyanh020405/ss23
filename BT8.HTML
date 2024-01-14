@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <SCript>
+        var a = parseInt(prompt("nhap so a de in ra so nguyen to"))
+        var u = 0 ;
+        for(let i=0 ; i<a ;i++ ){
+            for(let k = 0 ; k < a ;k ++){
+                if(i%k==0){
+                    u++;
+                    if(u>2){
+                        k++
+                    }
+                    else{console.log(k)}
+                }
+            }
+        }
+
+    </SCript>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var sum=0;
+        var n = parseInt(prompt("nhap n"));
+        for (let i=1 ; i < n ; i++){
+            if(n%i==0){
+                sum+=i;            
+            }
+        }
+        if(sum==n){
+            console.log(` so hoan hao`);
+
+        }
+        else{
+        console.log(` so 0 hoan hao `);
+    }
+    </script>
+</body>
+</html>
